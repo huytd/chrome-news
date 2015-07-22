@@ -3,4 +3,4 @@
 
 ![](http://i.imgur.com/6AEuoXm.png)
 
-## Demo: http://ui9.io
+**Demo:** [http://ui9.io](http://ui9.io)
