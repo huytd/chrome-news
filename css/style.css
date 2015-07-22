@@ -93,8 +93,8 @@ html, body {
 }
 
 .container .container-right {
-  flex-grow: 1;
-  -webkit-flex-grow: 1;
+  flex-basis: 75%;
+  -webkit-flex-basis: 75%;
   padding: 20px;
   box-sizing: border-box;
   height: 100%;
@@ -197,6 +197,10 @@ html, body {
     flex-basis: 40%;
     -webkit-flex-basis: 40%;
   }
+  .container .container-right {
+    flex-basis: 60%;
+    -webkit-flex-basis: 60%;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -204,5 +208,9 @@ html, body {
   .container .container-left {
     flex-basis: 25%;
     -webkit-flex-basis: 25%;
+  }
+  .container .container-right {
+    flex-basis: 75%;
+    -webkit-flex-basis: 75%;
   }
 }
