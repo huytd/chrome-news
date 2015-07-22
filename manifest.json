@@ -1,0 +1,19 @@
+{
+    "name": "Feedy.link Chrome Extension",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "The only one place for reading any news",
+    "homepage_url": "https://feedy.link",
+    "minimum_chrome_version": "21",
+    "icons": {
+        "128": "icons/128.png",
+        "32": "icons/32.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": ["http://*/*", "https://*/*", "unlimitedStorage",
+        "cookies", "tabs"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
