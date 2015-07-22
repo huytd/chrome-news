@@ -30,8 +30,22 @@ html, body {
   position: relative;
 }
 
+.container .container-left .note {
+    padding-top: 20px;
+    font-size: 0.9em;
+}
+
+.container .container-left .note * {
+    font-size: 1.0em;
+}
+
+.container .container-left .note a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
 .container .container-left .copyright {
-  opacity: 0.3;
+  opacity: 0.35;
   font-size: 0.8em;
   font-weight: normal;
   position: absolute;
