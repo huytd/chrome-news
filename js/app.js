@@ -10,9 +10,9 @@ function displayData(data) {
 
 function load_news(opt) {
   // This is just the wrapper service to call Reader.one API
-  var url = "http://codedaily.vn:4000/all";
+  var url = "http://reader.one/api/all/hn,reddit,ph,slashdot,dn,github,medium,readability,lifehacker";
   if (opt != "all") {
-    url = "http://codedaily.vn:4000/get/" + opt;
+    url = "http://reader.one/api/news/" + opt;
   }
   $.ajax({
     url: url,
